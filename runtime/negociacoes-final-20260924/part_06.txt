@@ -997,7 +997,8 @@ S3T8rbltk9dxokCFKAABShAAQpQgAIUoAAFKNAuBNhJClCAAm0i4CmhNDeZ2qRxNkqBagEJWMO7icdhv
             <div style="width:10px;height:10px;border-radius:50%;border:2px solid #00D9C0;flex-shrink:0;"></div>
           </div>
           <p style="font-size:11px;color:#E45858;margin-top:0.75rem;">🗑️ Deletar etapas selecionadas: <strong>Contato feito</strong></p>
-        </div>        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;width:400px;padding:1.5rem;box-shadow:0 12px 32px rgba(11,25,41,0.2);border:0.5px solid #E2E8F0;">
+        </div>
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;border-radius:12px;width:400px;padding:1.5rem;box-shadow:0 12px 32px rgba(11,25,41,0.2);border:0.5px solid #E2E8F0;">
           <div style="display:flex;justify-content:space-between;margin-bottom:1rem;"><h3 style="margin:0;font-size:15px;">Deseja excluir as Etapas do Funil?</h3><span style="color:#94A3B8;">✕</span></div>
           <p style="font-size:11.5px;color:#47576A;margin:0 0 0.5rem;">Você pode enviar as Etapas do Funil para a lixeira ou excluir permanentemente da sua conta.</p>
           <p style="font-size:11.5px;color:#47576A;margin:0 0 1rem;">Importante: ao excluir uma etapa, todas as negociações vinculadas a ela (caso existam) serão movidas para a primeira etapa do funil.</p>
@@ -1996,7 +1997,8 @@ S3T8rbltk9dxokCFKAABShAAQpQgAIUoAAFKNAuBNhJClCAAm0i4CmhNDeZ2qRxNkqBagEJWMO7icdhv
 <div style="border:1px solid #E2E8F0;border-radius:6px;padding:8px 10px;font-size:12.5px;color:#16232F;margin-bottom:14px;">Implantação VigosCloud</div>
 <div style="font-size:11px;color:#94A3B8;margin-bottom:8px;">INFORMAÇÕES DA EMPRESA</div>
 <div style="border:1px solid #E2E8F0;background:#F0FBFA;border-radius:6px;padding:8px 10px;font-size:12.5px;color:#16232F;margin-bottom:6px;">V CRM</div>
-<div style="display:inline-block;background:#E6FBF8;color:#0A7A6C;font-size:11px;padding:3px 8px;border-radius:10px;margin-bottom:14px;">Telefonia ✕</div><div style="font-size:11px;color:#94A3B8;margin-bottom:8px;">INFORMAÇÕES DO CONTATO</div>
+<div style="display:inline-block;background:#E6FBF8;color:#0A7A6C;font-size:11px;padding:3px 8px;border-radius:10px;margin-bottom:14px;">Telefonia ✕</div>
+<div style="font-size:11px;color:#94A3B8;margin-bottom:8px;">INFORMAÇÕES DO CONTATO</div>
 <div style="border:1px solid #E2E8F0;background:#F0FBFA;border-radius:6px;padding:8px 10px;font-size:12.5px;color:#16232F;margin-bottom:6px;">Eliana Almeida</div>
 <div style="font-size:12px;color:#94A3B8;margin-bottom:6px;">+55 (11) 93415-8855 · eliana@vcrm.com</div>
 <div style="font-size:12.5px;color:#16232F;margin-bottom:4px;">Contato e envio de comunicação</div>
@@ -2995,7 +2997,8 @@ DIAGRAMAS["6.empresas"] = [
 <path d="M340 76 L340 130" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/>
 <path d="M535 76 L535 130 L380 130" fill="none" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/>
 <g><rect x="240" y="130" width="200" height="44" rx="8" fill="#E7F7EF" stroke="#1FAA6E" stroke-width="1"/><text x="340" y="152" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#147A4E">Mesmo formulário</text></g>
-<line x1="340" y1="174" x2="340" y2="210" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/><g><rect x="200" y="210" width="280" height="44" rx="8" fill="#FEF3E2" stroke="#F5A623" stroke-width="1"/><text x="340" y="228" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#9A6314">Nome já existe na conta?</text></g>
+<line x1="340" y1="174" x2="340" y2="210" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/>
+<g><rect x="200" y="210" width="280" height="44" rx="8" fill="#FEF3E2" stroke="#F5A623" stroke-width="1"/><text x="340" y="228" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#9A6314">Nome já existe na conta?</text></g>
 <line x1="270" y1="254" x2="180" y2="288" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/>
 <line x1="410" y1="254" x2="500" y2="288" stroke="#64748B" stroke-width="1" marker-end="url(#arrowE1)"/>
 <g><rect x="60" y="288" width="220" height="30" rx="6" fill="#FCEAEA" stroke="#E45858" stroke-width="1"/><text x="170" y="303" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#791F1F">Sim: bloqueia, exibe erro</text></g>
@@ -3994,7 +3997,8 @@ const perms = {
   'Negociações e tarefas': [
     { nome: 'Alterar responsável na Negociação', desc: 'Só tem efeito se Preferências estiver com "Apenas Administradores e perfis com permissão".', dep: true },
     { nome: 'Excluir negociações', desc: 'Permissão para excluir negociações permanentemente e aprovar exclusões na lixeira.' },
-    { nome: 'Exportar negociações', desc: 'Permissão para exportar negociações e visualizar apenas as próprias exportações.' },    { nome: 'Exportar tarefas', desc: 'Permissão para exportar tarefas e visualizar apenas as próprias exportações.' },
+    { nome: 'Exportar negociações', desc: 'Permissão para exportar negociações e visualizar apenas as próprias exportações.' },
+    { nome: 'Exportar tarefas', desc: 'Permissão para exportar tarefas e visualizar apenas as próprias exportações.' },
   ],
   'Contatos': [
     { nome: 'Excluir contatos', desc: 'Permissão para excluir contatos permanentemente e aprovar exclusões na lixeira.' },
@@ -4993,7 +4997,8 @@ function renderOpcoesTemp() {
   STATE.opcoesTemp.forEach(function(v, i) {
     parts.push('<div class="opt-row"><input value="' + v.replace(/"/g, '&quot;') + '" oninput="STATE.opcoesTemp[' + i + ']=this.value" placeholder="Nome da opção"><span class="opt-remove" onclick="removerOpcaoTemp(' + i + ')">✕</span></div>');
   });
-  wrap.innerHTML = parts.join('');}
+  wrap.innerHTML = parts.join('');
+}
 function removerOpcaoTemp(i) {
   STATE.opcoesTemp.splice(i, 1);
   renderOpcoesTemp();
@@ -5992,6 +5997,7 @@ function renderFunil() {
   var listaMotivos = motivos.filter(function (m) { return m.status === "ativo"; });
   if (filtroFunil === "visiveis") listaMotivos = listaMotivos.filter(function (m) { return funilMotivos[m.id]; });
   if (filtroFunil === "ocultos") listaMotivos = listaMotivos.filter(function (m) { return !funilMotivos[m.id]; });
+
   var avisoHtml = semMotivo ?
     '<div class="warn-box"><p style="font-weight:600;margin-bottom:4px;">&#9888; Funil sem motivos de perda ativos</p>' +
     '<p>Todo funil precisa ter pelo menos um motivo de perda ativado. Enquanto nenhum estiver ativo, o encerramento de negociações como perdidas fica bloqueado neste funil.</p></div>' : "";
@@ -6991,7 +6997,8 @@ const PROTOTIPO_HTML_2 = `
     --text-muted: #64748B;
     --border-light: #E2E8F0;
     --amber: #F5A623;
-    --amber-bg: #FEF3E2;    --red: #E45858;
+    --amber-bg: #FEF3E2;
+    --red: #E45858;
     --red-bg: #FCEAEA;
     --green: #1FAA6E;
     --green-bg: #E7F7EF;
